@@ -25,9 +25,9 @@ h6 {
 }
 
 .intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
-    text-align: right;
+    padding-top: 20px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 20px;
+    text-align: center;
     color: #f8f8f8;
     background:url(../img/world.png) no-repeat center center;
     background-size: cover;
@@ -35,8 +35,8 @@ h6 {
 
 .intro-message {
     position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 .intro-message > h1 {
@@ -44,6 +44,21 @@ h6 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.0);
     font-size: 5em;
+}
+
+.intro-io {
+    color: #536DFE;
+    margin: 0;
+    font-size: 3em; 
+}
+
+.intro-im{
+    position: relative;
+    width: 30%;
+    height: 30%;
+    top: 50%;
+    left: 35.5%;
+    margin: 0;
 }
 
 .intro-divider {
@@ -91,6 +106,8 @@ h6 {
 .content-section-a {
     padding: 50px 0;
     background-color: #f8f8f8;
+    border-top: 2px solid #e7e7e7;
+    border-bottom: 2px solid #e7e7e7;
 }
 
 .content-section-b {
@@ -101,25 +118,29 @@ h6 {
 
 .section-heading {
     margin-bottom: 30px;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    /*-webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;*/
 }
 
 .section-heading-spacer {
     float: left;
     width: 200px;
-    border-top: 3px solid #e7e7e7;
+    border-top: 3px solid #536DFE /*#e7e7e7*/;
 }
 
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/banner-bgb.jpg) no-repeat center center;
+    background: #424242;/*url(../img/banner-bgb.jpg) no-repeat center center*/;
     background-size: cover;
 }
 
 .banner2 {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/intro-hash.png) no-repeat center center;
+    background: #484848/*url(../img/intro-hash.png) no-repeat center center*/;
     background-size: cover;
 }
 
