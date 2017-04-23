@@ -1,7 +1,3 @@
-# Titulo pagina.
+# Google I/O Extended page
 
-Titulo
-
-## Subtitulo pagina
-
-Descripcion
+## En construcción
