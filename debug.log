@@ -1,0 +1,6 @@
+[0423/204416.959:ERROR:process_info.cc(625)] range at 0x527027ac00000000, size 0xab fully unreadable
+[0423/204416.959:ERROR:process_info.cc(625)] range at 0x5270280e00000000, size 0xab fully unreadable
+[0423/204416.959:ERROR:process_info.cc(625)] range at 0x0, size 0xab fully unreadable
+[0423/204417.849:ERROR:process_reader_win.cc(233)] ReadMemory at 0xab525c0000 of 65536 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0423/204417.849:ERROR:crash_report_exception_handler.cc(111)] WriteEverything failed
+[0423/204418.006:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose.  (0xc000010a)
